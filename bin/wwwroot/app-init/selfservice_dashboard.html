@@ -1,0 +1,18 @@
+﻿<div id="selfservice">
+    <div ng-bootstrap="spApi" ng-config="/app-config/angular-evry-ssp.fagerhult.config.js" ng-dependencies="angular-route,angular-resource,angular-storage,angular-modal-service,angular-ui-router,jquery,jquery-ui,kendo,spApi,spApi-selfservice,spApi-fagerhult">
+        <div ui-view="app-content"></div>
+    </div>
+</div>
+
+<!--
+<div id="selfServiceDiv_success"></div>
+<div id="selfServiceDiv_error"></div>
+
+<script>
+
+$.getScript( "https://localhost/app-init/ssp.fagerhult.init.js")
+.fail(function( jqxhr, settings, exception ) {
+    jQuery("#selfServiceDiv_error").html("You cannot access Self-Service Portal. If the problem persists, contact your system administrator.");
+});
+</script>
+-->
